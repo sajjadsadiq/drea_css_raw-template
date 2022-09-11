@@ -1,0 +1,22 @@
+@import "./base/typography";
+@import "./utils/variables";
+@import "./layout/header";
+
+.full-body{
+    background-color: var(--bg-color);
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}

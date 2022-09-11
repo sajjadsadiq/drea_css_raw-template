@@ -1,0 +1,21 @@
+.navigation {
+  justify-content: space-between;
+  padding: 30px 0 0;
+  .logo {
+    img {
+      height: 30px;
+    }
+  }
+
+  .menu-item {
+    display: flex;
+    gap: 2rem;
+    a {
+      color: var(--text-main-color);
+      font-weight: 500;
+      &:hover{
+        color: var(--main-color);
+      }
+    }
+  }
+}
